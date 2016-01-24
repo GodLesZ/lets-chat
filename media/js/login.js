@@ -1,4 +1,4 @@
-//= require vendor/md5/md5.js
+//= require vendor/js-md5/md5.min.js
 
 +function() {
 

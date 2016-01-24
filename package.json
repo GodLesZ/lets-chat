@@ -7,8 +7,8 @@
   "scripts": {
     "start": "node app.js",
     "stop": "pkill --signal SIGINT letschat",
-    "prestart": "migroose",
-    "migrate": "migroose",
+    "prestart": "node_modules/.bin/migroose.cmd",
+    "migrate": "node_modules/.bin/migroose.cmd",
     "test": "eslint ."
   },
   "engine": {
